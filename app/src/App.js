@@ -1,28 +1,43 @@
 import React, { useState, useEffect, useMemo} from "react";
-import FriendCard from "./components/FriendCard";
+// import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import friends from "./friends.json";
 import Table from "./components/Table";
-
+import "./App.css";
   
-
+// const Role = ({ values }) => {
+//   return (
+//     <>
+//       {values.map(() => {
+//         return (
+//           // <span key={idx} className="badge">
+//           //   {occupation}
+//           // </span>
+//           <img alt="Headshot" src= "image" />
+//         );
+//       })}
+//     </>
+//   );
+// };
 function App(){
 
   const [data, setData] = useState([]);
 
 // Using useEffect to call the json once mounted and set the data
   useEffect(() => {
-    (async () => {
-      const result = await frineds;
-      setData(result.data);
-    })();
+    const data = friends;
+      setData(data);
+    // (async () => {
+    //   const result = await friends;
+    //   setData(result.data);
+    // })();
   }, []);
 
   const columns = useMemo(
     () => [
       {
-        // first group - TV Show
+        // first group - Employee
         Header: "Employee",
         // First group columns
         columns: [
@@ -43,11 +58,14 @@ function App(){
         columns: [
           {
             Header: "Branch Location",
-            accessor: "location"
+            accessor: "location",
+            // Cell: ({ cell: { value } }) => <Role values={value} />
           },
           {
             Header: "Headshot",
-            accessor: "image"
+            accessor: "image",
+            // accessor: <img alt="Headshot" src= "image" />
+            // Cell: ({ cell: { value } }) => <Role values={value} />
           },
         ]
       }
@@ -55,12 +73,12 @@ function App(){
     []
   );
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-  };
+  // removeFriend = id => {
+  //   // Filter this.state.friends for friends with an id not equal to the id being removed
+  //   const friends = this.state.friends.filter(friend => friend.id !== id);
+  //   // Set this.state.friends equal to the new friends array
+  //   this.setState({ friends });
+  // };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
 
