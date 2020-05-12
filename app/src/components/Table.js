@@ -22,13 +22,27 @@ const [filterInput, setFilterInput] = useState("");
   useSortBy// This plugin Hook will help to sort our table columns
   );
 
-  const handleFilterChange = e => {
-    const value = e.target.value || undefined;
-    // setFilter("name", value);
-    setFilter("occupation", value);
-    // setFilter("location", value);
-    setFilterInput(value);
-  };
+//   const handleFilterChangeL = e => {
+//     const value = e.target.value || undefined;
+//     // setFilter("name", value);
+//     // setFilter("occupation", value);
+//     setFilter("location", value);
+//     setFilterInput(value);
+//   };
+//   const handleFilterChangeN = e => {
+//       const value = e.target.value || undefined;
+//       setFilter("name", value);
+//     //   setFilter("occupation", value);
+//       // setFilter("location", value);
+//       setFilterInput(value);
+//     };
+                              const handleFilterChangeO = e => {
+                                const value = e.target.value || undefined;
+                                // setFilter("name", value);
+                                setFilter("occupation", value);
+                                // setFilter("location", value);
+                                setFilterInput(value);
+                              };
 
   /* 
     Render the UI for your table
@@ -38,7 +52,11 @@ const [filterInput, setFilterInput] = useState("");
     <>
       <input
         value={filterInput}
-        onChange={handleFilterChange}
+        onChange={
+            // handleFilterChangeL,
+            // handleFilterChangeN,
+            handleFilterChangeO
+        }
         placeholder={"Search name"}
       />
       <table {...getTableProps()}>
