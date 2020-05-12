@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useMemo} from "react";
 import FriendCard from "./components/FriendCard";
-
 import Title from "./components/Title";
 import friends from "./friends.json";
 import Table from "./components/Table";
+
 import "./App.css";
 
 function App(){
@@ -14,10 +14,7 @@ function App(){
   useEffect(() => {
     const data = friends;
       setData(data);
-    // (async () => {
-    //   const result = await friends;
-    //   setData(result.data);
-    // })();
+
   }, []);
 
   const columns = useMemo(
@@ -30,10 +27,12 @@ function App(){
           {
             Header: "Name",
             accessor: "name"
+   
           },
           {
             Header: "Role",
             accessor: "occupation"
+         
           }
         ]
       },
@@ -45,7 +44,6 @@ function App(){
           {
             Header: "Branch Location",
             accessor: "location",
-           
           },
           {
             Header: "Headshot",
@@ -55,17 +53,22 @@ function App(){
         ]
       }
     ],
+    
     []
   );
 
     return (
       <div className="App">
-      
+    
       <Title>Employee List</Title>
-        <Table columns={columns} data={data} />
+        <Table 
+        columns={columns} 
+        data={data} 
+        setTable={setData}/>
         </div>
     );
   }
 
 
 export default App;
+

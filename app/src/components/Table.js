@@ -3,7 +3,10 @@ import { useTable, useFilters, useSortBy } from "react-table";
 
 export default function Table({ columns, data }) {
 // Create a state
-const [filterInput, setFilterInput] = useState("");
+const [filterNameInput, setFilterNameInput] = useState("");
+const [filterOccupationInput, setFilterOccupationInput] = useState("");
+const [filterLocationInput, setFilterLocationInput] = useState("");
+
 
   // Use the useTable Hook to send the columns and data to build the table
   const {
@@ -22,45 +25,54 @@ const [filterInput, setFilterInput] = useState("");
   useSortBy// This plugin Hook will help to sort our table columns
   );
 
-//   const handleFilterChangeL = e => {
-//     const value = e.target.value || undefined;
-//     // setFilter("name", value);
-//     // setFilter("occupation", value);
-//     setFilter("location", value);
-//     setFilterInput(value);
-//   };
-//   const handleFilterChangeN = e => {
-//       const value = e.target.value || undefined;
-//       setFilter("name", value);
-//     //   setFilter("occupation", value);
-//       // setFilter("location", value);
-//       setFilterInput(value);
-//     };
-                              const handleFilterChangeO = e => {
-                                const value = e.target.value || undefined;
-                                // setFilter("name", value);
-                                setFilter("occupation", value);
-                                // setFilter("location", value);
-                                setFilterInput(value);
-                              };
-
+  const handleFilterChangeN = e => {
+    const value = e.target.value || undefined;
+    setFilter("name", value);
+    setFilterNameInput(value);
+  };
+  const handleFilterChangeO = e => {
+    const value = e.target.value || undefined;
+    setFilter("occupation", value);
+    setFilterOccupationInput(value);
+  };
+  
+  const handleFilterChangeL = e => {
+    const value = e.target.value || undefined;
+    setFilter("location", value);
+    setFilterLocationInput(value);
+  };
+  
   /* 
     Render the UI for your table
     - react-table doesn't have UI, it's headless. We just need to put the react-table props from the Hooks, and it will do its magic automatically
   */
  return (
-    <>
-      <input
-        value={filterInput}
-        onChange={
-            // handleFilterChangeL,
-            // handleFilterChangeN,
-            handleFilterChangeO
-        }
-        placeholder={"Search name"}
-      />
-      <table {...getTableProps()}>
-        <thead>
+  <>
+ <div className="search">
+<input
+                                value={filterNameInput}
+                                onChange={
+                                    handleFilterChangeN
+                                }
+                                placeholder={"Search Name"}
+                              /> 
+<input
+                                value={filterOccupationInput}
+                                onChange={
+                                    handleFilterChangeO
+                                }
+                                placeholder={"Search Role"}
+                              /> 
+<input
+                                value={filterLocationInput}
+                                onChange={
+                                    handleFilterChangeL
+                                }
+                                placeholder={"Search Location"}
+                              />
+</div> 
+<table {...getTableProps()}>
+  <thead>
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map(column => (
@@ -95,6 +107,6 @@ const [filterInput, setFilterInput] = useState("");
           })}
         </tbody>
       </table>
-    </>
+      </>
   );
 }

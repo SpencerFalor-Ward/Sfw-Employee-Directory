@@ -7,6 +7,7 @@ table {
   }
   table th,
   table td {
+    text-align: center;
     margin: 0;
     padding: 0.5rem;
     border-bottom: 1px solid #ededed;
@@ -43,17 +44,16 @@ table {
     flex-direction: column;
     padding: 20px;
   }
-  .badge {
-    background-color: #9ae6b4;
-    color: #22543d;
-    margin-right: 4px;
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
+
+.search{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-grow: inherit;
+}
   input {
+    width: 33.33%;
     padding: 10px;
     margin-bottom: 20px;
     font-size: 18px;

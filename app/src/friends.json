@@ -11,7 +11,7 @@
     "name": "Mr. Krabs",
     "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
     "occupation": "Management",
-    "location": "Nickelodeon - A Giant Anchor"
+    "location": "Headquarters - A Giant Anchor"
   },
   {
     "id": 3,
@@ -53,7 +53,7 @@
     "name": "Johnny Bravo",
     "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
     "occupation": "Sales",
-    "location": "Cartoon Network - Aron City"
+    "location": "Headquarters - Aron City"
   },
   {
     "id": 9,
@@ -74,7 +74,7 @@
     "name": "Captain Planet",
     "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
     "occupation": "IT",
-    "location": "Cartoon Network - Earth"
+    "location": "Headquarters - Earth"
   },
   {
     "id": 12,
