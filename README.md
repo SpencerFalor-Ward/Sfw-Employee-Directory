@@ -34,7 +34,7 @@ Always appreciated
 
 ## Test
 
-Tested with Postman
+jest
 
 ## Questions
 
