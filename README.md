@@ -1,6 +1,6 @@
 # :dragon: [Welcome to SpencerFalor-Ward's Employee directory](https://spencerfalor-ward.github.io/hw-unit19-employeeDirectoryReact/) :dragon:
 
-## Employee directory ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentyeighteen)
+## Employee directory ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentyseventeen)
 
 Employee directory app created with React that allows you to view all employees in a table that is sortable and filterable
 
