@@ -1,4 +1,4 @@
-# :dragon: [Welcome to SpencerFalor-Ward's Employee directory with React](https://budget-tracker-sfw.herokuapp.com/) :dragon:
+# :dragon: [Welcome to SpencerFalor-Ward's Employee directory](https://budget-tracker-sfw.herokuapp.com/) :dragon:
 
 ## Employee directory ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
 
