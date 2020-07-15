@@ -1,4 +1,4 @@
-# :dragon: [Welcome to SpencerFalor-Ward's Employee directory](https://spencerfalor-ward.github.io/hw-unit19-employeeDirectoryReact/) :dragon:
+# :card_index:[Welcome to SpencerFalor-Ward's Employee directory](https://spencerfalor-ward.github.io/hw-unit19-employeeDirectoryReact/):card_index:
 
 ## Employee directory ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentyseventeen)
 
