@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hw-unit19-employeeDirectoryReact/static/css/main.840a4475.chunk.css",
-    "main.js": "/hw-unit19-employeeDirectoryReact/static/js/main.befe1cec.chunk.js",
-    "main.js.map": "/hw-unit19-employeeDirectoryReact/static/js/main.befe1cec.chunk.js.map",
-    "runtime-main.js": "/hw-unit19-employeeDirectoryReact/static/js/runtime-main.dea86191.js",
-    "runtime-main.js.map": "/hw-unit19-employeeDirectoryReact/static/js/runtime-main.dea86191.js.map",
-    "static/js/2.ff288ef3.chunk.js": "/hw-unit19-employeeDirectoryReact/static/js/2.ff288ef3.chunk.js",
-    "static/js/2.ff288ef3.chunk.js.map": "/hw-unit19-employeeDirectoryReact/static/js/2.ff288ef3.chunk.js.map",
-    "index.html": "/hw-unit19-employeeDirectoryReact/index.html",
-    "precache-manifest.49dcbe7679b1d52e51441ccd7d5b773e.js": "/hw-unit19-employeeDirectoryReact/precache-manifest.49dcbe7679b1d52e51441ccd7d5b773e.js",
-    "service-worker.js": "/hw-unit19-employeeDirectoryReact/service-worker.js",
-    "static/css/main.840a4475.chunk.css.map": "/hw-unit19-employeeDirectoryReact/static/css/main.840a4475.chunk.css.map",
-    "static/js/2.ff288ef3.chunk.js.LICENSE.txt": "/hw-unit19-employeeDirectoryReact/static/js/2.ff288ef3.chunk.js.LICENSE.txt"
+    "main.css": "/Sfw-Employee-Directory/static/css/main.840a4475.chunk.css",
+    "main.js": "/Sfw-Employee-Directory/static/js/main.041a4cc0.chunk.js",
+    "main.js.map": "/Sfw-Employee-Directory/static/js/main.041a4cc0.chunk.js.map",
+    "runtime-main.js": "/Sfw-Employee-Directory/static/js/runtime-main.745f2ecf.js",
+    "runtime-main.js.map": "/Sfw-Employee-Directory/static/js/runtime-main.745f2ecf.js.map",
+    "static/js/2.ff288ef3.chunk.js": "/Sfw-Employee-Directory/static/js/2.ff288ef3.chunk.js",
+    "static/js/2.ff288ef3.chunk.js.map": "/Sfw-Employee-Directory/static/js/2.ff288ef3.chunk.js.map",
+    "index.html": "/Sfw-Employee-Directory/index.html",
+    "precache-manifest.891a232665a52ecee7bcb49fa4d7e0b4.js": "/Sfw-Employee-Directory/precache-manifest.891a232665a52ecee7bcb49fa4d7e0b4.js",
+    "service-worker.js": "/Sfw-Employee-Directory/service-worker.js",
+    "static/css/main.840a4475.chunk.css.map": "/Sfw-Employee-Directory/static/css/main.840a4475.chunk.css.map",
+    "static/js/2.ff288ef3.chunk.js.LICENSE.txt": "/Sfw-Employee-Directory/static/js/2.ff288ef3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dea86191.js",
+    "static/js/runtime-main.745f2ecf.js",
     "static/js/2.ff288ef3.chunk.js",
     "static/css/main.840a4475.chunk.css",
-    "static/js/main.befe1cec.chunk.js"
+    "static/js/main.041a4cc0.chunk.js"
   ]
 }
