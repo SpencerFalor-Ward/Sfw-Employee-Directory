@@ -1,6 +1,6 @@
 # :card_index:[Welcome to SpencerFalor-Ward's Employee directory](https://spencerfalor-ward.github.io/hw-unit19-employeeDirectoryReact/):card_index:
 
-[![Followers](https://img.shields.io/github/followers/SpencerFalor-Ward?style=social)](https://github.com/SpencerFalor-Ward?tab=followers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Language](https://img.shields.io/github/languages/top/SpencerFalor-Ward/Sfw-Employee-Directory)](https://github.com/SpencerFalor-Ward/Sfw-Employee-Directory/search?l=javascript) [![Latest Commit](https://img.shields.io/github/last-commit/SpencerFalor-Ward/Sfw-Employee-DirectorySfw-Employee-Directory)](https://github.com/SpencerFalor-Ward/Sfw-Employee-Directory/graphs/commit-activity)
+[![Followers](https://img.shields.io/github/followers/SpencerFalor-Ward?style=social)](https://github.com/SpencerFalor-Ward?tab=followers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Language](https://img.shields.io/github/languages/top/SpencerFalor-Ward/Sfw-Employee-Directory)](https://github.com/SpencerFalor-Ward/Sfw-Employee-Directory/search?l=javascript) [![Latest Commit](https://img.shields.io/github/last-commit/SpencerFalor-Ward/Sfw-Employee-Directory)](https://github.com/SpencerFalor-Ward/Sfw-Employee-Directory/graphs/commit-activity)
 
 Employee directory app created with React that allows you to view all employees in a table that is sortable and filterable
 
@@ -8,7 +8,7 @@ Employee directory app created with React that allows you to view all employees 
 
 -   [Installation](#Installation)
 -   [Usage](#Usage)
--   [Liscence](#Liscence)
+-   [License](#License)
 -   [Contributing](#Contributing)
 -   [Test](#Test)
 -   [Questions](#Questions)
@@ -26,7 +26,7 @@ Input your data into the json file or link your data to the app to populate your
 
 ## Liscence
 
-NA
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
 
